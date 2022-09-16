@@ -1,0 +1,326 @@
+* {
+  font-family: sans-serif;
+}
+
+/* nje font ka i gjithe webisite'i */
+/* ketu fillon CSS e seksionit navbar-into*/
+/* ketu fillon CSS e navbar'it */
+.navbar-intro {
+  background-color: #1f2937;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-intro div {
+  width: 1100px;
+}
+
+.headlogo-and-links {
+  height: 50px;
+  display: flex;
+}
+
+.headlogo-and-links div {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  flex-basis: 275rem;
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  font-size: 24px;
+  font-family: sans-serif;
+  color: #faf9f8;
+}
+.link-one {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #e5e7eb;
+}
+.link-two {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #e5e7eb;
+}
+.link-three {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #e5e7eb;
+}
+
+/* ketu mbaron CSS e navbar'it */
+/* ketu fillon CSS e intro's */
+
+.intro {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro > div {
+  flex: 0 0 450px;
+  height: 238px;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-text div {
+  width: 450px;
+  padding: 3px;
+}
+
+.header-text {
+  flex: 0 0 auto;
+}
+
+#header-text {
+  font-size: 48px;
+  font-weight: bolder;
+  margin: 0px;
+  color: #f9faf8;
+}
+
+#intro-paragraph {
+  font-size: 18px;
+  margin: 0px;
+  color: #c6c7ca;
+}
+
+#button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  margin: 0px;
+}
+
+.imazhi {
+  display: flex;
+  background-color: #e5e7eb;
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+#imazhi {
+  color: #1f2937;
+  font-weight: bolder;
+}
+
+/* ketu mbaron CSS e intro's */
+/* ketu mbaron CSS e seksionit navbar-into*/
+/*ketu fillon CSS e seksionit random-info */
+
+.random-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.random-info > div {
+  width: 780px;
+}
+
+.random-info-header {
+  display: flex;
+  flex: 0 0 70px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+#random-info-header {
+  font-size: 28px;
+  font-weight: bolder;
+  color: #1f2937;
+  padding: 0px;
+}
+
+.items-container {
+  display: flex;
+  flex: 0 0 290px;
+  gap: 30px;
+}
+.items-container > div {
+  flex: 0 0 171px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+}
+.item1 {
+  display: flex;
+  flex-direction: column;
+}
+.item2 {
+  display: flex;
+  flex-direction: column;
+}
+.item3 {
+  display: flex;
+  flex-direction: column;
+}
+
+#border {
+  border: 3px solid #76abff;
+  border-radius: 20px;
+  flex: 0 0 171px;
+}
+#desc {
+  flex: 1;
+}
+#border1 {
+  border: 3px solid #76abff;
+  border-radius: 20px;
+  flex: 0 0 171px;
+}
+#desc1 {
+  flex: 1;
+}
+#border2 {
+  border: 3px solid #76abff;
+  border-radius: 20px;
+  flex: 0 0 171px;
+}
+#desc2 {
+  flex: 1;
+}
+#border3 {
+  border: 3px solid #76abff;
+  border-radius: 20px;
+  flex: 0 0 171px;
+}
+#desc3 {
+  flex: 1;
+}
+
+#p1 {
+  text-align: center;
+  color: #7e7e80;
+  font-weight: 530;
+}
+
+/*ketu mbaron CSS e seksionit random-info */
+/*ketu fillon CSS e seksionit Quote */
+
+.quote-section {
+  display: flex;
+  height: 400px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4e4e4;
+}
+
+.quote-container {
+  flex: 0 0 320px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+}
+
+#the-quote {
+  font-style: italic;
+  font-size: 36px;
+  margin: 0px;
+  color: #7e7e80;
+  padding-top: 20px;
+}
+
+.name-of-quoter {
+  flex: 1;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+#name-of-quoter {
+  font-weight: bolder;
+  font-size: 30px;
+  margin: 10px;
+  color: #5b5b5c;
+}
+/*ketu mbaron CSS e seksionit Quote */
+/*ketu fillon CSS e seksionit Sign Up */
+.sign-up-section {
+  display: flex;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up-container {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 12px;
+  flex: 0 0 800px;
+  height: 160px;
+  display: flex;
+}
+
+.sign-up-text-container {
+  flex: 0 0 535px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sign-up-text p {
+  margin: 0px;
+  padding: 2px;
+  color: #e4e4e4;
+}
+#sign-up-header {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.sign-up-button-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sign-up-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid #f9faf8;
+  border-radius: 10px;
+  margin-right: 45px;
+}
+/*ketu mbaron CSS e seksionit Sign Up */
+/*ketu fillon CSS e seksionit Copyright*/
+.copyright-section {
+  display: flex;
+  background-color: #1f2937;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+#copyright-text {
+  color: #91919e;
+  font-style: italic;
+}
+/*ketu mbaron CSS e seksionit Copyright*/
